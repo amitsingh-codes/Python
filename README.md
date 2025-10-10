@@ -1,1 +1,1 @@
-Some basic Task to revise Python 
+Some basic Tasks to revise Python 
