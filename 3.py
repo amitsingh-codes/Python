@@ -3,7 +3,6 @@
 import random 
 map = ["_", "_", "_", "_", "_"] 
 treasure = random.randint(0, 4) 
-print(treasure)
 found = False 
 while not found: 
     guess = int(input("Guess the position (1-5): ")) - 1
