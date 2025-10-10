@@ -6,6 +6,7 @@ count = 0
 sentence = input("Enter a sentence with emojis: ") 
 mood_dict = {"love": 1, "😍": 1, "happy": 1, "hate": -1, "😫": -1, "sad": -1} 
 sent_low=sentence.lower()
+
 for word in sent_low.split(" "):
     if  word in mood_dict:
             count = count + mood_dict[word]
