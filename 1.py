@@ -2,7 +2,7 @@
 
 # String -> I am Amit . I Love coding and I feel very HAPPY while solving problems 😍 , I am a part of Geek room in AI department 😍 , I love being a part of it , I hate only one thing "Theory" it just feels boring 😫 but again I believe the thing which makes you sad makes you happy in long run.
 
-def analyze_mood(sentence: str) -> None:
+def analyze_mood(sentence):
     count = 0
     mood_dict = {"love": 1, "😍": 1, "happy": 1, "hate": -1, "😫": -1, "sad": -1}
     sent_low = sentence.lower()
